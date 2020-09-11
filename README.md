@@ -29,14 +29,14 @@ This module will build a VPX instance with two interfaces and the necessary reso
         pip_mgmt_name = "pip-my-eastus2-vpx-mgmt"
         pip_client_name = "pip-my-eastus2-vpx-client"
     
-        nic_mgmt_name = "nic-prod-my-eastus2-vpx-mgmt"
+        nic_mgmt_name = "nic-my-eastus2-vpx-mgmt"
         nic_mgmt_ip = "172.16.0.4"
         nic_client_name = "nic-my-eastus2-vpx-client"
         nic_client_ip = "172.16.0.36"
     
-        vm_name = "vm-prod-urlw-ueast2-adc-1"
-        vm_os_computer_name = "azpd-urlw-eastus2-adc-1"
+        vm_name = "vm-my-eastus2-vpx-1"
+        vm_os_computer_name = "my-eastus2-vpx-1"
         vm_os_admin_username = "azroot"
         vm_os_admin_password = ""
-        vm_os_disk_name = "vhd-prod-url2-eastus2-adc-1"
+        vm_os_disk_name = "vhd-prod-my-eastus2-vpx-1"
     }
